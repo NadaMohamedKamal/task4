@@ -1,8 +1,17 @@
 *{
     margin: 0px;
     padding: 0px;
+
+}
+section{
+    height:700px;
+    background-color: #FAFAFA;
+    padding:10px;
 }
 
+#id:hover{
+    background-color: rgba(182, 179, 179, 0.808);
+}
 #nav{
     position: fixed;
     background-color:gray;
@@ -14,15 +23,12 @@ li{
 a{
     color:rgb(158, 185, 226);
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin:50px;
+    margin:60px;
 }
   p{
-      background-image: url(../img/navpic.jpg);
-      background-repeat: no-repeat;
-      background-position: right;
-      position: relative;
+      
       font-size: 20px;
       color: rgb(75, 71, 71);
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -35,11 +41,11 @@ table{
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 100px;
-    margin-left: 40px;
-    font-size:18px;
-    font-style: normal;
+    margin-left: 70px;
     height: 250px;
     width: 400px;
+    font-size:18px;
+    font-style: normal;
     border-style: solid;
     color:rgb(20, 89, 167); 
 
@@ -57,22 +63,22 @@ table{
 }
 #form1{
     background-color: rgb(231, 232, 236);
+    float: right;
     padding: 20px;
-    margin-left: 40px;
-    margin-bottom: 100px;
-    margin-top: 10px;
+    margin-right: 150px;
+    margin-top: -350px;
     font-size:23px;
     font-style: normal;
     width: 250px;
     height: 250px;
     border-style: solid;
-    background-position: right;
+    border-color: gray;
     color: rgb(20, 89, 167); 
 }
 #form2 button{
     height: 40px;
     width: 90px;
-    margin-left: 68px;
+    margin-left: 110px;
     font-size: 16px;
     color: rgb(20, 89, 167); 
     background-color: white;
@@ -81,7 +87,7 @@ table{
 #form2 {
     background-color: rgb(231, 232, 236);
     padding: 30px;
-    margin-left: 40px;
+    margin-left: 80px;
     margin-bottom: 100px;
     margin-top: 10px;
     font-size:25px;
@@ -89,6 +95,7 @@ table{
     width: 320px;
     height: 350px;
     border-style: solid;
+    border-color: gray;
     color:rgb(20, 89, 167); 
 
 }
@@ -108,20 +115,15 @@ h1{
 h3{
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-left: 90px;
+    padding-left: 150px;
     padding-bottom: 20px;
     color: rgb(97, 91, 91);
 }
-#img{
-    background-image: url(../img/supernovalogo.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    height: 300px;
-}
-#img h4{
-    font-size: 20px;
+
+ h4{
+    font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(51, 51, 104);
-    text-align: right;
-    margin-right: 40px;
+    float: right;
+    margin-right: -150px;
 }
